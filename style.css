@@ -1,3 +1,7 @@
+html{
+  margin: 0 0 0 0;
+}
+
 .reveal {
   position: relative;
   transform: translateY(150px);
@@ -411,11 +415,7 @@ h1:last-of-type {
   color: var(--varyDarkBlue);
 }
 
-@media (max-width: 400px) {
-  h1 {
-      font-size: 1.5rem;
-  }
-}
+
 
 .header {
   text-align: center;
@@ -446,13 +446,8 @@ img {
   float: right;
 }
 
-@media (max-width: 450px) {
-  .box {
-      height: 200px;
-  }
-}
 
-@media (max-width: 950px) and (min-width: 450px) {
+@media (min-width: 450px) {
   .box {
       text-align: center;
       height: 180px;
@@ -581,13 +576,61 @@ li {
 }
 
 @media (max-width: 767px) {
+
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
-}
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
+
+  #about{
+    margin-bottom: 3%;padding: 5%;
   }
+  
+  #about h1{
+    font-size:3rem;font-weight:bold;text-align: center;
+  }
+  
+  #about p{
+    font-size: 1.5rem;line-height:2;text-align:justify;width:100%;
+  }
+  
+  #about .col{
+    color:black;
+  }
+
+  #about img{display: none;
+    margin-left:15%;margin-top:5%;height:600px;width: 450px;
+    margin-right: 5%;
+  }
+  
+
+  .modal img{
+    width: 420px;
+  }
+
+}
+
+#about{
+  margin-bottom: 5%;
+}
+
+#about h1{
+  font-size:3rem;font-weight:bold;text-align: center;
+}
+
+#about p{
+  font-size: 1.5rem;line-height:2;text-align:justify;width:100%;
+}
+
+#aboutdiv{
+  color:black;margin-left: 4%;
+}
+
+#about img{
+  margin-left:15%;margin-top:5%;height:600px;width: 450px;
+  margin-right: 5%;
+}
+
+.modal img{
+  width: 470px;
 }
