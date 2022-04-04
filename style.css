@@ -634,3 +634,45 @@ li {
 .modal img{
   width: 470px;
 }
+@media (max-width: 428px) {
+.header{
+  margin-top: -20%;
+}
+.home{
+  position: absolute;
+  margin-left: -15%;
+}
+.homeh{
+  font-weight:bold;
+  color: white;
+  margin-top:-10%;
+}
+.homep{
+  font-size:1.5rem;
+}
+.carousel-inner{
+  margin-top: 4.5em; border-radius: 0.5em;margin-left:-2%;
+}
+#carouselExampleSlidesOnly{
+  width:100%;height: 550px;
+   border-radius: 0.5em;
+}
+}
+@media (min-width: 428px) {
+.home{
+  position: absolute;left: 40%;
+}
+.homeh{
+  font-weight:bold;color: white;padding-top: 40%;
+}
+.homep{
+  font-size:1.5rem;
+}
+.carousel-inner{
+  margin-top: 4.5em; border-radius: 0.5em;
+}
+#carouselExampleSlidesOnly{
+  width:98%;height: 550px;padding: 0 0 0 0;margin-left: 1em;
+   border-radius: 0.5em;
+}
+}
