@@ -697,21 +697,4 @@ li {
   width:100%;
 }
 }
-@media (min-width: 428px) {
-.home{
-  position: absolute;left: 40%;
-}
-.homeh{
-  font-weight:bold;color: white;padding-top: 40%;
-}
-.homep{
-  font-size:1.5rem;
-}
-.carousel-inner{
-  margin-top: 4.5em; border-radius: 0.5em;
-}
-#carouselExampleSlidesOnly{
-  width:98%;height: 550px;padding: 0 0 0 0;margin-left: 1em;
-   border-radius: 0.5em;
-}
-}
+
