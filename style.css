@@ -623,7 +623,7 @@ li {
 }
 
 #aboutdiv{
-  color:black;margin-left: 4%;
+  color:black;padding: 4%;
 }
 
 #about img{
@@ -636,26 +636,65 @@ li {
 }
 @media (max-width: 428px) {
 .header{
-  margin-top: -20%;
+  margin-top: -29%;
 }
 .home{
   position: absolute;
-  margin-left: -15%;
+ margin-left: 25%;
 }
 .homeh{
   font-weight:bold;
   color: white;
-  margin-top:-5%;
+ 
 }
 .homep{
   font-size:1.5rem;
 }
+
+.image-wrapper{
+  background-image: url('src/2.jpg');
+  background-size: 100% 380px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  
+}
 .carousel-inner{
-  margin-top: 4.5em; border-radius: 0.5em;
+  margin-top: 4.5em; border-radius: 0.5em;margin-left:-2%;
 }
 #carouselExampleSlidesOnly{
   width:100%;height: 550px;
    border-radius: 0.5em;
+}
+.footer-col {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#about{
+  margin-bottom: 3%;padding: 5%;
+}
+
+#about h1{
+  font-size:3rem;font-weight:bold;text-align: center;
+}
+
+#about p{
+  font-size: 1.5rem;line-height:2;text-align:justify;width:100%;
+}
+
+#about .col{
+  color:black;
+}
+
+#about img{display: none;
+  margin-left:15%;margin-top:5%;height:600px;width: 450px;
+  margin-right: 5%;
+}
+
+
+.modal img{
+  width:100%;
 }
 }
 @media (min-width: 428px) {
